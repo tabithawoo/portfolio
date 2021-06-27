@@ -58,9 +58,9 @@ const DisplayProjectInfo = (props: {project: Project}) => {
         <Typography variant="h3">{project.name}</Typography>
         <Typography variant="h6">Last updated: {datePushedAt}</Typography>
         <Typography variant="body1" gutterBottom>{project.description}</Typography>
-        <Button className={`${classes.button} ${classes.ghButton}`} href={project.url}><Typography variant="h5">GitHub</Typography></Button>    
+        <Button className={`${classes.button} ${classes.ghButton}`} href={project.url} target="_blank" rel="noopener"><Typography variant="h5">GitHub</Typography></Button>    
         {project.homepageUrl && 
-                <Button className={`${classes.button} ${classes.deployedButton}`} href={project.homepageUrl} disableElevation><Typography variant="h5">Deployed Site</Typography></Button>              
+                <Button className={`${classes.button} ${classes.deployedButton}`} href={project.homepageUrl} target="_blank" rel="noopener"><Typography variant="h5">Deployed Site</Typography></Button>              
         }        
         </>
     );  
