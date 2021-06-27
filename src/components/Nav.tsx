@@ -123,6 +123,8 @@ export function Nav() {
               href={link.href}
               className={classes.navLink}
               variant="h5"
+              target="_blank" 
+              rel="noopener"
             >
               <IconButton
                 className={classes.navIcon}

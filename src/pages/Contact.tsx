@@ -40,9 +40,9 @@ export function Contact() {
             </Grid>
             <Grid item xs={12} md={6}>
             <Subheader text="Follow"/>
-                <Link href="https://www.linkedin.com/in/tabitha-woo/" variant="body1" className={classes.socialLink}>LinkedIn</Link>
-                <Link href="https://github.com/tabithawoo" variant="body1" className={classes.socialLink}>GitHub</Link>
-                <Link href="https://twitter.com/tabitha135" variant="body1" className={classes.socialLink}>Twitter</Link>
+                <Link href="https://www.linkedin.com/in/tabitha-woo/" variant="body1" className={classes.socialLink} target="_blank" rel="noopener">LinkedIn</Link>
+                <Link href="https://github.com/tabithawoo" variant="body1" className={classes.socialLink} target="_blank" rel="noopener">GitHub</Link>
+                <Link href="https://twitter.com/tabitha135" variant="body1" className={classes.socialLink} target="_blank" rel="noopener">Twitter</Link>
             </Grid>
         </Grid>
         </>
